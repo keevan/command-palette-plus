@@ -1,8 +1,8 @@
 <h1 align="center">
-    📦 open-plugin 
+    📦 open-plugin
 </h1>
 <p align="center">Quickly open any installed plugin settings, docs and more!</p>
-<p align="center">It <u>should be simple</u>. If you manage multiple packages, this will save you many bookmarks!</p>
+<p align="center">It <ins>should be simple</ins>. If you manage multiple packages, this will save you many bookmarks!</p>
 <p align="center">
     <img alt="APM" src="https://img.shields.io/apm/v/open-plugin">
     <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/keevan/open-plugin/ci">
