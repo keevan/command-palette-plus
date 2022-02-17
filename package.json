@@ -1,18 +1,31 @@
 {
   "name": "open-plugin",
-  "main": "./lib/open-plugin",
+  "main": "./lib/main",
   "version": "0.0.0",
   "description": "Quickly open any installed plugin settings, docs and more!",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "open-plugin:toggle"
-  },
+  "keywords": [],
   "repository": "https://github.com/keevan/open-plugin",
   "license": "MIT",
+  "release": {
+    "extends": "@semantic-release/apm-config",
+    "branches": [
+      "main"
+    ]
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@semantic-release/apm-config": "^9.0.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "semantic-release": "^19.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

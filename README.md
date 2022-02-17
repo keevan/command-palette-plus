@@ -62,7 +62,7 @@ Please take a look at our [contributing guidelines](./.github/CONTRIBUTING.md) i
 
 ### Support
 
-If you like this project or found it helpful, please consider supporting it for further development.
+If you like or found this project helpful, please leave a star and consider supporting it for further development.
 
 <a href="https://liberapay.com/kevinpham/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg" style="height: 40px; padding-right: 10px">
 <a href="https://www.buymeacoffee.com/keevan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important" ></a>
