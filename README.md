@@ -26,7 +26,6 @@ Or search for the `open-plugin` package via `Settings > Packages`. Read more on 
 
 ### Features
 
-Without going through a __slow user interface__:
 - _Quickly_ open your plugin settings
 - _Quickly_ open your `.cson` settings at the relevant plugin section
 - _Quickly_ open plugin README
@@ -49,15 +48,19 @@ No keymaps are currently set by default.
 
 I recommended you configure your own keybindings and use what is comfortable for you. You can do this by going to `Settings > Keybindings` or open it from the Command Pallete using `Application: Open Your Keymap`.
 
-Command List                            | Description
-----------------------------------------|-------------
-`open-plugin:settings`                  | Opens a fuzzy finder to filter down installed plugins / packages
+Hotkeys       | Command List               | Description
+--------------|----------------------------|-------------
+`ctrl+k`      | `open-plugin:search-mode`  | Opens a command pallete in searching mode.
+`ctrl+shift+K`| `open-plugin:command-mode` | Opens a command pallete with command mode.
+
+Note: For Mac, `ctrl` is replaced with `Command`
 
 
 ### Contributing
 Please take a look at our [contributing guidelines](./.github/CONTRIBUTING.md) if you're interested in helping out!
 
 ##### Pending features
+- Would be good to work on git submodules as well to a certain extent, as the structure is similar, and usually are extensions / plugins added to a main project.
 - Please raise an issue if you have a suggestion!
 
 ### Support
