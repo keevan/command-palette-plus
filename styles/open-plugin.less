@@ -5,4 +5,36 @@
 @import "ui-variables";
 
 .open-plugin {
+    .tips {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .suggestion {
+        display: flex;
+        font-size: 1.2em;
+        padding: 8px 8px;
+        border-radius: 8px;
+    }
+
+    .suggestion.focused {
+        background:#333;
+    }
+    .suggestion :nth-child(1) {
+        width: 30px;
+    }
+
+    .suggestion :nth-child(2) {
+        flex: 1;
+    }
+
+    .suggestion .suggestion-title {
+        white-space: nowrap
+    }
+
+    .suggestion :nth-child(3) {
+        color: #555;
+    }
+
 }
