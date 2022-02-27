@@ -5,17 +5,35 @@
 @import "ui-variables";
 
 .open-plugin {
+    .input-area {
+        background: #0000002e;
+        margin-bottom: 10px;
+
+        input {
+            background: transparent;
+            font-size: 1.5em;
+            height: 2em;
+            border: transparent;
+            color: white;
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+            }
+        }
+    }
+
     .tips {
         display: flex;
         justify-content: space-between;
-        padding-bottom: 10px;
+        padding: 0 10px 20px 10px;
     }
 
     .suggestion {
         display: flex;
         font-size: 1.2em;
         padding: 8px 8px;
-        border-radius: 8px;
+        border-radius: 6px;
     }
 
     .suggestion.focused {
@@ -34,7 +52,11 @@
     }
 
     .suggestion :nth-child(3) {
+        display:none;
         color: #555;
+    }
+    .suggestion.focused :nth-child(3) {
+        display: block;
     }
 
 }
