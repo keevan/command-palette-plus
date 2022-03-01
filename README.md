@@ -28,11 +28,13 @@ Or search for the `open-plugin` package via `Settings > Packages`. Read more on 
 
 - _Quickly_ open your plugin settings
 - _Quickly_ open your `.cson` settings at the relevant plugin section
-- _Quickly_ open plugin README
-- _Quickly_ see outstanding issues for the plugin on GitHub.com
+- _Quickly_ open the plugin README
+
+With the `git-link` package, you should see more options to:
+- _Quickly_ open and view outstanding issues for the plugin on GitHub.com
 - _Quickly_ create a new issue for the plugin on GitHub.com
 - _Quickly_ open the plugin on GitHub.com to perform any other actions
-- _Quickly_ install plugins by name / command or GitHub repo (__[#warning](#warning)__)
+- More conveniently install plugins by name / command or GitHub repo (__[#warning](#warning)__)
 
 Currently developing an Atom plugin?
 - _Quickly_ do the above, without needing to search for the package first!
@@ -60,6 +62,8 @@ Note: For Mac, `ctrl` is replaced with `Command`
 Please take a look at our [contributing guidelines](./.github/CONTRIBUTING.md) if you're interested in helping out!
 
 ##### Pending features
+- Allow other packages, to customise and add additional commands to the pallete. 
+- Update command pallete to work with install commands e.g. copied from a readme or similar. This will allow you to quickly confirm, and jump to the plugin page. There should be an option to SKIP this and directly install plugins this way, BUT it should be off by default, at least based on the recommendations (https://flight-manual.atom.io/hacking-atom/sections/handling-uris/) - URI should at most only ever show package page, apm pasting should always install since it is a confirmation but option is still nice.
 - Would be good to work on git submodules as well to a certain extent, as the structure is similar, and usually are extensions / plugins added to a main project.
 - Please raise an issue if you have a suggestion!
 
