@@ -62,7 +62,9 @@ Note: For Mac, `ctrl` is replaced with `Command`
 Please take a look at our [contributing guidelines](./.github/CONTRIBUTING.md) if you're interested in helping out!
 
 ##### Pending features
-- Allow other packages, to customise and add additional commands to the pallete. 
+- Allow renaming of commands (because some people just don't like the default command names + makes it easier to search for if customised / aliased)
+- Have a way to deduplicate command names e.g. if multiple packages so happen to use the same label (display the package its for? Scope level application? Should it even matter?)
+- Allow other packages, to customise and add additional commands to the pallete.
 - Update command pallete to work with install commands e.g. copied from a readme or similar. This will allow you to quickly confirm, and jump to the plugin page. There should be an option to SKIP this and directly install plugins this way, BUT it should be off by default, at least based on the recommendations (https://flight-manual.atom.io/hacking-atom/sections/handling-uris/) - URI should at most only ever show package page, apm pasting should always install since it is a confirmation but option is still nice.
 - Would be good to work on git submodules as well to a certain extent, as the structure is similar, and usually are extensions / plugins added to a main project.
 - Please raise an issue if you have a suggestion!
