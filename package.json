@@ -1,7 +1,7 @@
 {
   "name": "open-plugin",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Quickly open any installed plugin settings, docs and more!",
   "keywords": [],
   "repository": "https://github.com/keevan/open-plugin",
@@ -15,6 +15,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "providedServices": {
+    "open-plugin": {
+      "versions": {
+        "0.1.0": "providePallete"
+      }
+    }
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
@@ -22,6 +29,7 @@
     "@types/fuzzaldrin-plus": "^0.6.2",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "babel-plugin-add-module-exports": "^1.0.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "semantic-release": "^19.0.2"
