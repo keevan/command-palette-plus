@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "open-plugin:toggle"
+    "ctrl-k": "command-palette-plus:search-mode",
+    "ctrl-shift-k": "command-palette-plus:command-mode"
   }
 }

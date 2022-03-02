@@ -1,10 +1,10 @@
 {
-  "name": "open-plugin",
+  "name": "command-palette-plus",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Quickly open any installed plugin settings, docs and more!",
   "keywords": [],
-  "repository": "https://github.com/keevan/open-plugin",
+  "repository": "https://github.com/keevan/command-palette-plus",
   "license": "MIT",
   "release": {
     "extends": "@semantic-release/apm-config",
@@ -16,7 +16,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "providedServices": {
-    "open-plugin": {
+    "command-palette-plus": {
       "versions": {
         "0.1.0": "providePallete"
       }

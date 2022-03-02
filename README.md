@@ -1,15 +1,15 @@
 <h1 align="center">
-    📦 open-plugin
+    📦 command-palette-plus
 </h1>
 <p align="center">Quickly open any installed plugin settings, docs and more!</p>
 <p align="center">It <ins>should be simple</ins>. If you manage multiple packages, this will save you many bookmarks!</p>
 <p align="center">
-    <img alt="APM" src="https://img.shields.io/apm/v/open-plugin">
-    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/keevan/open-plugin/ci">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/keevan/open-plugin">
-    <img alt="APM" src="https://img.shields.io/apm/dm/open-plugin">
-    <img alt="GitHub" src="https://img.shields.io/github/license/keevan/open-plugin">
-    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/keevan/open-plugin">
+    <img alt="APM" src="https://img.shields.io/apm/v/command-palette-plus">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/keevan/command-palette-plus/ci">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/keevan/command-palette-plus">
+    <img alt="APM" src="https://img.shields.io/apm/dm/command-palette-plus">
+    <img alt="GitHub" src="https://img.shields.io/github/license/keevan/command-palette-plus">
+    <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/keevan/command-palette-plus">
 </p>
 
 <p align="center">
@@ -20,9 +20,9 @@
 
 #### CLI:
 ```
-apm install open-plugin
+apm install command-palette-plus
 ```
-Or search for the `open-plugin` package via `Settings > Packages`. Read more on [Atom Packages](https://flight-manual.atom.io/using-atom/sections/atom-packages/).
+Or search for the `command-palette-plus` package via `Settings > Packages`. Read more on [Atom Packages](https://flight-manual.atom.io/using-atom/sections/atom-packages/).
 
 ### Features
 
@@ -52,8 +52,8 @@ I recommended you configure your own keybindings and use what is comfortable for
 
 Hotkeys       | Command List               | Description
 --------------|----------------------------|-------------
-`ctrl+k`      | `open-plugin:search-mode`  | Opens a command pallete in searching mode.
-`ctrl+shift+K`| `open-plugin:command-mode` | Opens a command pallete with command mode.
+`ctrl+k`      | `command-palette-plus:search-mode`  | Opens a command pallete in searching mode.
+`ctrl+shift+K`| `command-palette-plus:command-mode` | Opens a command pallete with command mode.
 
 Note: For Mac, `ctrl` is replaced with `Command`
 
@@ -79,4 +79,4 @@ If you like or found this project helpful, please leave a star and consider supp
 
 ### License
 
-<img alt="GitHub" src="https://img.shields.io/github/license/keevan/open-plugin?label=License">
+<img alt="GitHub" src="https://img.shields.io/github/license/keevan/command-palette-plus?label=License">

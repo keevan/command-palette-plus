@@ -1,8 +1,8 @@
 'use babel';
 
-import OpenPluginView from '../lib/open-plugin-view';
+import View from '../lib/command-palette-plus-view';
 
-describe('OpenPluginView', () => {
+describe('View', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });
