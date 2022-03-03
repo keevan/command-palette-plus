@@ -6,7 +6,7 @@
 
 .command-palette-plus {
     .input-area {
-        background: #0000002e;
+        background: @base-background-color;
         margin-bottom: 10px;
 
         input {
@@ -14,7 +14,7 @@
             font-size: 1.5em;
             height: 2em;
             border: transparent;
-            color: white;
+            color: @text-color;
 
             &:focus {
                 box-shadow: none;
@@ -37,7 +37,7 @@
     }
 
     .suggestion.focused {
-        background:#333;
+        background: darken(@base-background-color, 5%);
     }
     .suggestion :nth-child(1) {
         width: 30px;
