@@ -2,8 +2,15 @@
   "name": "command-palette-plus",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Quickly open any installed plugin settings, docs and more!",
-  "keywords": [],
+  "description": "An opinionated palette inspired by GitHub's command palette - show less, do more",
+  "keywords": [
+      "commands",
+      "suggestions",
+      "palette",
+      "scope",
+      "react",
+      "atom"
+  ],
   "repository": "https://github.com/keevan/command-palette-plus",
   "license": "MIT",
   "release": {

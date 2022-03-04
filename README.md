@@ -1,7 +1,7 @@
 <h1 align="center">
     command-palette-plus
 </h1>
-<p align="center">More relevant, more options, more control, ... more!</p>
+<p align="center">An opinionated palette inspired by GitHub's command palette - show less, do more!</p>
 <p align="center"><b>Note: this package is still quite unstable and not ready for daily use - some quirks expected</b></p>
 <p align="center">
     <img alt="APM" src="https://img.shields.io/apm/v/command-palette-plus">
@@ -71,6 +71,7 @@ Coming Soon
 Please take a look at our [contributing guidelines](./.github/CONTRIBUTING.md) if you're interested in helping out!
 
 ##### Pending features
+- Populate existing commands in the suggestions list via a "command-mode" or "command" scope.
 - Allow re-labeling of commands (because sometimes it's easier with an alias) - or perhaps allow alias to be part of the filter criterion.
 - Allow other packages, to customise and add additional commands to the pallete.
 - Update command pallete to work with install commands e.g. copied from a readme or similar. This will allow you to quickly confirm, and jump to the plugin page. There should be an option to SKIP this and directly install plugins this way, BUT it should be off by default, at least based on the recommendations (https://flight-manual.atom.io/hacking-atom/sections/handling-uris/) - URI should at most only ever show package page, apm pasting should always install since it is a confirmation but option is still nice.
