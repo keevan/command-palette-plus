@@ -1,15 +1,15 @@
 {
   "name": "command-palette-plus",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "An opinionated palette inspired by GitHub's command palette - show less, do more",
   "keywords": [
-      "commands",
-      "suggestions",
-      "palette",
-      "scope",
-      "react",
-      "atom"
+    "commands",
+    "suggestions",
+    "palette",
+    "scope",
+    "react",
+    "atom"
   ],
   "repository": "https://github.com/keevan/command-palette-plus",
   "license": "MIT",
