@@ -1,7 +1,7 @@
 {
   "name": "command-palette-plus",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An opinionated palette inspired by GitHub's command palette - show less, do more",
   "keywords": [
     "commands",
